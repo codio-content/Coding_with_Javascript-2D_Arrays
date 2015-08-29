@@ -1,0 +1,181 @@
+{
+ "sections": [
+  {
+   "id": "3733e97e-d753-77e6-a411-464a9cefdc08",
+   "title": "2D Arrays",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/2D-Arrays-3733.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "e69cfb90-b751-3003-a5b9-d8b33c81810c",
+   "title": "Preparation video",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Preparation-video-e69c.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "9ced3c8d-bdc2-a604-a1ec-4914b24b593",
+   "title": "2D Arrays explained",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/2D-Arrays-explained-9ced.md",
+   "chapter": true,
+   "reset": [
+    "1-overview"
+   ]
+  },
+  {
+   "id": "dd909ea1-6c22-ee40-fd3f-4c9d1f22c1b0",
+   "title": "Example",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "1-overview/people.txt",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Example-dd90.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "d4ba77cf-4f78-1686-6771-5ec052f5bd57",
+   "title": "Reading from a 2D array",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "read.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Reading-from-a-2D-array-d4ba.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "e44912de-e32-caad-683d-aff8893dd69f",
+   "title": "Populating a 2D array",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Populating-a-2D-array-e449.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "9b69b0c1-e3af-dfd2-d6df-8b65be83d4a3",
+   "title": "Challenges",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenges-9b69.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "6ba0ff8a-a6e7-278f-475d-22d81c726e92",
+   "title": "Easy peasy",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "easy.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Easy-peasy-6ba0.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "1090b738-e9e-ae4c-b0ad-6849f5f9e3ae",
+   "title": "List 'em out",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "list.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/List--em-out-1090.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "de092301-8d84-f059-c32c-2707e4b48814",
+   "title": "Dynamic creation",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Dynamic-creation-de09.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "ab46fd8a-dc6a-f74c-474b-68433267eef1",
+   "title": "All done!!",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-11-ab46.md",
+   "chapter": false,
+   "reset": []
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": ""
+}
