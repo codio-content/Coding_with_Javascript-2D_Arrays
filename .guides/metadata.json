@@ -74,7 +74,7 @@
      "action": "close"
     },
     {
-     "path": "read.js",
+     "path": "1-overview/read.js",
      "panel": 0,
      "action": "open"
     }
@@ -89,7 +89,18 @@
   {
    "id": "e44912de-e32-caad-683d-aff8893dd69f",
    "title": "Populating a 2D array",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "1-overview/write.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Populating-a-2D-array-e449.md",
@@ -157,7 +168,18 @@
   {
    "id": "de092301-8d84-f059-c32c-2707e4b48814",
    "title": "Dynamic creation",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "dynamic.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Dynamic-creation-de09.md",
@@ -168,9 +190,10 @@
    "id": "ab46fd8a-dc6a-f74c-474b-68433267eef1",
    "title": "All done!!",
    "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-11-ab46.md",
+   "content-file": ".guides/content/All-done---ab46.md",
    "chapter": false,
    "reset": []
   }
