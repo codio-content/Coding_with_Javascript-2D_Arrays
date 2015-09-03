@@ -2,7 +2,6 @@
 
 {Check It!|assessment}(test-667129063)
 
-
 |||guidance
 ### Solution
 ```javascript

@@ -9,7 +9,7 @@
      "action": "close"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/2D-Arrays-3733.md",
@@ -27,6 +27,27 @@
    "reset": []
   },
   {
+   "id": "10f2acfd-875f-5469-205c-26c175d5ea2f",
+   "title": "Experiments",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "experiment.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Experiments-10f2.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
    "id": "9ced3c8d-bdc2-a604-a1ec-4914b24b593",
    "title": "2D Arrays explained",
    "files": [
@@ -35,7 +56,7 @@
      "action": "close"
     }
    ],
-   "layout": "",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/2D-Arrays-explained-9ced.md",
@@ -58,7 +79,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Example-dd90.md",
@@ -87,8 +108,29 @@
    "reset": []
   },
   {
+   "id": "7518145e-949b-4234-d33a-b122a2b86bcb",
+   "title": "Creating a dynamic 2D array",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "1-overview/2d.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Creating-a-dynamic-2D-array-7518.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
    "id": "e44912de-e32-caad-683d-aff8893dd69f",
-   "title": "Populating a 2D array",
+   "title": "Dynamic 2D array in Javascript",
    "files": [
     {
      "path": "#tabs",
@@ -103,7 +145,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Populating-a-2D-array-e449.md",
+   "content-file": ".guides/content/Dynamic-2D-array-in-Javascript-e449.md",
    "chapter": false,
    "reset": []
   },
@@ -189,7 +231,12 @@
   {
    "id": "ab46fd8a-dc6a-f74c-474b-68433267eef1",
    "title": "All done!!",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
    "layout": "",
    "path": [],
    "type": "markdown",

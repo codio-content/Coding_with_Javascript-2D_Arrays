@@ -1,3 +1,5 @@
+
+// Creating a 2D array
 people = [ 
   ['Name', 'Age', 'Color', 'Car'], 
   ['Alice',23,'Blue','Audi'],
@@ -5,6 +7,7 @@ people = [
   ['Bob',31,'Green','Renault'] 
 ]
 
+// Looping through both dimensions
 for (i=1; i < people.length; i++ ) {
   
   for (j=0, str=''; j < people[i].length; j++ ) {

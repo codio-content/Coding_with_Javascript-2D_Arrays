@@ -4,9 +4,15 @@ On the left we have some code that does the following.
 
 ## Define and populate an array
 ```javascript
-people = [ ['Name', 'Age', 'Color', 'Car'], ['Alice',23,'Blue','Audi'],
-['Tariq',18,'Red','Mini'], ['Bob',31,'Green','Renault'] ]
+people = [ 
+  ['Name', 'Age', 'Color', 'Car'], 
+  ['Alice',23,'Blue','Audi'],
+  ['Tariq',18,'Red','Mini'], 
+  ['Bob',31,'Green','Renault'] 
+]
 ```
+
+There is no need to write this array like this. It could all be on one line but we added the line breaks to make it more readable.
 
 ## Lengths
 Notice that in the outer loop, we use `i < people.length`. This tells us the length of the first dimension.
