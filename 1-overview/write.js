@@ -1,3 +1,4 @@
+
 // Create an empty array first
 // This gives us our first dimension
 array = []
@@ -18,4 +19,5 @@ for ( i=0; i < rows; i++ ) {
     array[i][j] = i + ',' + j
   }
 }
+
 console.log(array)

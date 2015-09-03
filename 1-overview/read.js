@@ -1,3 +1,4 @@
+
 people = [ 
   ['Name', 'Age', 'Color', 'Car'], 
   ['Alice',23,'Blue','Audi'],
