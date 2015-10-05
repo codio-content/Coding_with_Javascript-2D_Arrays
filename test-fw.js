@@ -12,7 +12,8 @@ var test = {
     var scope = {
       output: function(val) {
         output.push(val);
-      }
+      },
+      console: console
     }
 
     for (var i = 0; i < argv.length; i++) {
