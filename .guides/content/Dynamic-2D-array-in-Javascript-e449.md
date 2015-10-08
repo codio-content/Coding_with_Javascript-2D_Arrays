@@ -2,5 +2,5 @@ In this example, we are creating a new array and populating it with some rows an
 
 You can see how we have filled each 'cell' in the array.
 
-{Run the code}(node 1-overview/write.js)
+{Run the code}(node run-user.js 1-overview/write.js)
 
