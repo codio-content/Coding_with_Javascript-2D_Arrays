@@ -1,15 +1,17 @@
+// declare our variable
+var desks= []
 
-people = [ 
-  ['Name', 'Age', 'Color', 'Car'], 
-  ['Alice',23,'Blue','Audi'],
-  ['Tariq',18,'Red','Mini'], 
-  ['Bob',31,'Green','Renault'] 
-]
+//
+// set rows 0,1,2 to contain an array of their own
+//
+desks[0]= ['Adam', 'Ben', 'Carl', 'David']
+desks[1]= ['Edward', 'Frank', 'Georgia', 'Helen']
+desks[2]= ['Isabelle', 'Joan', 'Kelly', 'Linda']
 
-for (i=1; i < people.length; i++ ) {
-  
-  for (j=0, str=''; j < people[i].length; j++ ) {
-    str += people[0][j] + '=' + people[i][j] + ' '
-  }
-  console.log(str)
+
+for(var row= 0; row < desks.length; row++){
+	var studentRow= ''
+	for(var column= 0; column < desks[row].length; column++){
+		console.log('row[' +row+ ']col[' +column+ ']= ' +desks[row][column]);
+	}
 }

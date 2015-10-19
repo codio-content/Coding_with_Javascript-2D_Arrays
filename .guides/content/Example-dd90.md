@@ -1,31 +1,10 @@
-On the left is a file with some data in it. Each line represents information stored on a person.
+Imagine a classroom with desks where each desk has a student. Think of the 2D Array as a grid, with rows going left to right and columns going up and down. Each element in the array can be referenced by the specifying the row and column we wish to select. 
 
-Let's see this data represented in a table.
+The first element in the desks array, `desks[0]` contains an array with 4 elements, `[‘Adam’, ‘Ben’, ‘Carl’, ‘David’]`.
 
 | | C0 | C1 | C2 | C3
 |-|-|-|-|-|
-|R0| 'Alice' | 23 | 'Blue' | 'Audi' |
-|R1| 'Tariq' | 18 | 'Red' | 'Mini' |
-|R2| 'Bob' | 31 | 'Green' | 'Renault' |
+|R0| 'Adam' | 'Ben' | 'Carl' | 'David' |
+|R1| 'Edward' |'Frank' | 'Georgia' | 'Helen' |
+|R2| 'Isabelle' | 'Joan' | 'Kelly' | 'Linda' |
 
-Now you can clearly see the 2 dimensional nature of this data.
-
-- Alice's data is in row 0, Bob's is in row 2
-- Names are in column 0 and cars are in column 3
-
-If this data were stored in an array, each person's data would look like this
-
-```javascript
-people[0] = ['Alice',23,'Blue','Audi']
-people[1] = ['Tariq',18,'Red','Mini']
-people[2] = ['Bob',31,'Green','Renault']
-```
-
-You can now see that each array element people[n] contains another array.
-
-And finally you can get individual bits of information like this.
-
-```javascript
-car = people[0][3]  // 'Audi'
-age = people[2][1]  // 31
-```
