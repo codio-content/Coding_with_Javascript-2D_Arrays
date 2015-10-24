@@ -1,3 +1,10 @@
 
-input0 = [ [1,2,3,4], [9,8,7,6], [11, 12] ]
+// Load the 2D Array from command line arguments
+input0= []
+var inputDigits= process.argv.slice(2)
+var arrayColumnCount= inputDigits.shift()
+while(inputDigits.length >= arrayColumnCount){
+  input0.push(inputDigits.splice(0,arrayColumnCount));
+}
 
+// Your code goes here

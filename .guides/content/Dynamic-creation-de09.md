@@ -1,20 +1,21 @@
-{Run the code}(node run-user.js dynamic.js)
-
 {Check It!|assessment}(test-667129063)
 
 |||guidance
 ### Solution
 ```javascript
-input0 = 5
-input1 = 8
+
+// Get our command line arguments
+B = process.argv.pop()
+A = process.argv.pop()
 array = []
 
-for ( i=0; i < input0; i++ ) {
+// Your code goes here
+for (var i=0; i < A; i++ ) {
   array[i] = []
-  for (j=0; j < input1; j++ ) {
+  for (var j=0; j < B; j++ ) {
     array[i][j] = 'R' + i + 'C' + j
   }
 }
-output(array)
+console.log(array)
 ```
 |||
