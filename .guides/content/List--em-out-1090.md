@@ -4,16 +4,24 @@
 |||guidance
 ### Solution
 ```javascript
+var inputArray= []
+var inputDigits= process.argv.slice(2)
+var arrayColumnCount= inputDigits.shift()
+while(inputDigits.length >= arrayColumnCount){
+  inputArray.push(inputDigits.splice(0,arrayColumnCount));
+}
+
+
 // Initialize a grand total counter
 var gtotal= 0
 
 // for each row
-for ( var row=0; row < input0.length; row++ ) {
+for ( var row=0; row < inputArray.length; row++ ) {
   // total this row up
   var rowTotal= 0
-  for ( var col=0; col < input0[row].length; col++ ) {
+  for ( var col=0; col < inputArray[row].length; col++ ) {
     // add this element to the row total
-    rowTotal += input0[row][col]
+    rowTotal += inputArray[row][col]
   }
   // output this row total
   console.log(rowTotal)

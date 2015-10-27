@@ -1,7 +1,6 @@
 
 // Get our command line arguments
-B = process.argv.pop()
-A = process.argv.pop()
-array = []
+var B = process.argv.pop()
+var A = process.argv.pop()
 
 // Your code goes here

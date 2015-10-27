@@ -5,17 +5,18 @@
 ```javascript
 
 // Get our command line arguments
-B = process.argv.pop()
-A = process.argv.pop()
-array = []
+var B = process.argv.pop()
+var A = process.argv.pop()
+
 
 // Your code goes here
+var result = []
 for (var i=0; i < A; i++ ) {
-  array[i] = []
+  result[i] = []
   for (var j=0; j < B; j++ ) {
-    array[i][j] = 'R' + i + 'C' + j
+    result[i][j] = 'R' + i + 'C' + j
   }
 }
-console.log(array)
+console.log(result)
 ```
 |||

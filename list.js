@@ -1,10 +1,12 @@
 
 // Load the 2D Array from command line arguments
-input0= []
+var inputArray= []
 var inputDigits= process.argv.slice(2)
 var arrayColumnCount= inputDigits.shift()
 while(inputDigits.length >= arrayColumnCount){
-  input0.push(inputDigits.splice(0,arrayColumnCount));
+  inputArray.push(inputDigits.splice(0,arrayColumnCount));
 }
+
+// inputArray holds the 2d array passed in
 
 // Your code goes here
