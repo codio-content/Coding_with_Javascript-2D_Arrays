@@ -37,7 +37,7 @@
      "action": "close"
     },
     {
-     "path": "experiment.js",
+     "path": "challenges/experiment.js",
      "panel": 0,
      "action": "open"
     }
@@ -78,7 +78,7 @@
      "action": "close"
     },
     {
-     "path": "1-overview/people.txt",
+     "path": "content/1-overview/people.txt",
      "panel": 0,
      "action": "open"
     }
@@ -100,7 +100,7 @@
      "action": "close"
     },
     {
-     "path": "1-overview/read.js",
+     "path": "content/1-overview/read.js",
      "panel": 0,
      "action": "open"
     }
@@ -122,7 +122,7 @@
      "action": "close"
     },
     {
-     "path": "1-overview/2d.flode",
+     "path": "content/1-overview/2d.flode",
      "panel": 0,
      "action": "open"
     }
@@ -144,7 +144,7 @@
      "action": "close"
     },
     {
-     "path": "1-overview/write.js",
+     "path": "content/1-overview/write.js",
      "panel": 0,
      "action": "open"
     }
@@ -183,7 +183,7 @@
      "action": "close"
     },
     {
-     "path": "easy.js",
+     "path": "challenges/easy.js",
      "panel": 0,
      "action": "open"
     }
@@ -205,7 +205,7 @@
      "action": "close"
     },
     {
-     "path": "list.js",
+     "path": "challenges/list.js",
      "panel": 0,
      "action": "open"
     }
@@ -227,7 +227,7 @@
      "action": "close"
     },
     {
-     "path": "dynamic.js",
+     "path": "challenges/dynamic.js",
      "panel": 0,
      "action": "open"
     }

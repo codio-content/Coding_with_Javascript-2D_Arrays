@@ -1,4 +1,4 @@
-{Run the code}(node run-user.js easy.js)
+{Run the code}(node run-user.js challenges/easy.js)
 
 {Check It!|assessment}(test-2304874676)
 

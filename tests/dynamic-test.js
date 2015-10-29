@@ -1,7 +1,7 @@
 
-var test = require('./test-fw.js');
+var test = require('../test-fw.js');
 
-var script = '/home/codio/workspace/dynamic.js'
+var script = '/home/codio/workspace/challenges/dynamic.js'
 var inputs = [2,3];
 var expected = [ [ 'R0C0', 'R0C1', 'R0C2' ], [ 'R1C0', 'R1C1', 'R1C2' ] ];
     
