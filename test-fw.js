@@ -19,6 +19,10 @@ var test = {
       console: console
     }
 
+    console.log("<br><small><b>For Input: </b><pre>")
+    argv.map(function(arg) { console.log("    [" + arg + "]") })
+    console.log("</pre><b>Your Output:</b></small>")
+    
     // 
     // We will replace the console.log function with one which stores the
     // console output so we can check the test. We hold a pointer to the 
@@ -28,6 +32,7 @@ var test = {
     var normalConsoleLogFunction= console.log;
     scope.console.log= function(val){
       output.push(val);
+      normalConsoleLogFunction(val)
     }
 
 

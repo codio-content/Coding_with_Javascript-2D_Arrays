@@ -4,12 +4,11 @@
 |||guidance
 ### Solution
 ```javascript
-var inputArray= []
-var inputDigits= process.argv.slice(2)
-var arrayColumnCount= inputDigits.shift()
-while(inputDigits.length >= arrayColumnCount){
-  inputArray.push(inputDigits.splice(0,arrayColumnCount));
-}
+
+// Get input from the command line arguments
+var inputArray= process.argv.slice(2)
+
+// Your code goes here
 
 
 // Initialize a grand total counter
