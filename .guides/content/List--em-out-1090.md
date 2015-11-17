@@ -8,6 +8,11 @@
 // Get input from the command line arguments
 var inputArray= process.argv.slice(2)
 
+// split up the arguments into a 2d array
+for(var i=0; i < inputArray.length; i++){
+  inputArray[i]= inputArray[i].split(",")
+}
+
 // Your code goes here
 
 
@@ -20,7 +25,7 @@ for ( var row=0; row < inputArray.length; row++ ) {
   var rowTotal= 0
   for ( var col=0; col < inputArray[row].length; col++ ) {
     // add this element to the row total
-    rowTotal += inputArray[row][col]
+    rowTotal += +inputArray[row][col]
   }
   // output this row total
   console.log(rowTotal)

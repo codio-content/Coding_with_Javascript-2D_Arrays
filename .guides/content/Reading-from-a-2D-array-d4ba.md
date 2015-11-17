@@ -1,4 +1,4 @@
-{Run the code}(node run-user.js content/1-overview/read.js)
+{Run the code}(node content/1-overview/read.js)
 
 On the left we have some code that does the following.
 
