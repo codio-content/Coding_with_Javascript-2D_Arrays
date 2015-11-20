@@ -19,3 +19,5 @@ for (var i=1; i < people.length; i++ ) {
   console.log(str)
   
 }
+
+
