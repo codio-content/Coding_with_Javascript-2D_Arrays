@@ -9,7 +9,7 @@ On the left we have some code that does the following:
 Now, the create a 2d array, we fill the regular array `desks` with array for each element.
 
 ## Populate the array
-There are a number of equivalent way to populate the same 2d array.
+There are a number of equivalent ways to populate the same 2d array.
 
 In our sample code, we do it like this:
 
