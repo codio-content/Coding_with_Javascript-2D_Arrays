@@ -1,5 +1,4 @@
-Creating 2 dimensional arrays is quite logical but is a bit fiddly. To make this clearer, we'll use a Flode chart as a good way of illustrating it.
+Writing code to create two-dimensional arrays is logical but it can be a bit fiddly. The Flode chart on the left illustrates a 2D array visually to try and make the concept a bit easier to understand!
 
 ## Step through the chart
-We recommend stepping through the chart so you can see the array `a2d` changing as you progress.
-
+Use the 'Step' feature to step through the Flode chart so you can see exactly how the array `a2d` changes at each stage of the process. 

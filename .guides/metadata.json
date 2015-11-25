@@ -2,7 +2,7 @@
  "sections": [
   {
    "id": "3733e97e-d753-77e6-a411-464a9cefdc08",
-   "title": "2D Arrays",
+   "title": "2D arrays",
    "files": [
     {
      "path": "#tabs",
@@ -12,7 +12,7 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/2D-Arrays-3733.md",
+   "content-file": ".guides/content/2D-arrays-3733.md",
    "chapter": true,
    "reset": [],
    "teacherOnly": false
@@ -41,7 +41,7 @@
   },
   {
    "id": "9ced3c8d-bdc2-a604-a1ec-4914b24b593",
-   "title": "2D Arrays explained",
+   "title": "2D arrays explained",
    "files": [
     {
      "path": "#tabs",

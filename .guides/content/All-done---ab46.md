@@ -1,3 +1,3 @@
-Well done, you've completed this Unit.
+Well done, you have completed this unit.
 
-Now you should understand how to work with arrays of multiple dimensions. This skill will help you represent tables, matrices, and other ways and handling data.
+You should now be able to understand arrays of multiple dimensions. This skill will help you to represent tables and matrices, and will also help you with other ways of handling data.

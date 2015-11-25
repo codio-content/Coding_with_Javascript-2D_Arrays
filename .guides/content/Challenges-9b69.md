@@ -1,2 +1,4 @@
-Here come a couple of challenges to reinforce what we've just learned.
+On the next few pages are some challenges so you can try out what you've just learned.
+
+
 

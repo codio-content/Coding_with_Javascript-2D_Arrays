@@ -1,17 +1,17 @@
 {Run the code}(node content/1-overview/read.js)
 
-On the left we have some code that does the following:
+Have a look at the code on the left. This is what it does:
 
-## Define an Array
+## Define an array
 ```javascript
 2  var desks= []
 ```
-Now, the create a 2d array, we fill the regular array `desks` with array for each element.
+To create a 2D array, we fill the regular array `desks` with an array for each element.
 
 ## Populate the array
-There are a number of equivalent ways to populate the same 2d array.
+There are a number of equivalent ways to populate the same 2D array.
 
-In our sample code, we do it like this:
+In the sample code, the 2D array has been populated like this:
 
 ```javascript
 7  desks[0]= ['Adam', 'Ben', 'Carl', 'David']
@@ -19,7 +19,7 @@ In our sample code, we do it like this:
 9  desks[2]= ['Isabelle', 'Joan', 'Kelly', 'Linda']
 ```
 
-We could have done it like this, starting directly with an array of arrays:
+Another way to populate the 2D array would be like this, using an array of arrays:
 
 ```javascript
 desks= [
@@ -29,16 +29,15 @@ desks= [
 ];
 ```
 
-The entire declaration from above could go on a single line:
+To make it simpler, everything in the example above could go on a single line, then the code would look like this:
 ```javascript
 var desks= [['Adam', 'Ben', 'Carl', 'David'],['Edward', 'Frank', 'Georgia', 'Helen'],['Isabelle', 'Joan', 'Kelly', 'Linda']];
 ```
-... but we added the line breaks to make it more readable.
 
 
 
 ## Lengths
-Notice that in the outer loop, we use `row < desks.length`. This tells us the length of the first dimension.
+Have a look at the outer loop, it uses `row < desks.length`. This tells us the length of the first dimension.
 
 ```javascript
 12  for(var row= 0; row < desks.length; row++){
